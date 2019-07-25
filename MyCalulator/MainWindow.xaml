@@ -1,0 +1,17 @@
+﻿<Window x:Class="MyCalulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyCalulator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="350" WindowStartupLocation="CenterScreen" Background="WhiteSmoke">
+    <Grid>
+        <StackPanel>
+            <TextBox Name="txt1" Width="150" Height="35" ToolTip="Add Number1" Margin="5"/>
+            <TextBox Name="txt2" Width="150" Height="35" ToolTip="Add Number2" Margin="5"/>
+            <Button Content="Add" Width="150" Height="50" Margin="5" ToolTip="Addition of Two Numbers" Click="Button_Click"/>
+            <Label Name="lblResult" Width="200" Height="40" Background="LightGreen" Margin="10" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>
